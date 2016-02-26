@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600,500,700);
+
+div.background {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/511029/aIoqJpw.jpg");
+  webkit-background-size: 100% auto;
+  moz-background-size: 100% auto;
+  ms-background-size: 100% auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav{
+  background:rgba(121,130,133,0.9);
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+  position:fixed
+ 
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav > ul > li> a{
+  color:silver;
+  background:rgba(121,130,133,0.9)
+  display: block;
+  line-height: 3em;
+  padding: 0.5em 0.5em;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+    
+div.parent_social{
+  text-align:center  
+}
+.parent_social.div.social{
+    padding:.5em;
+    line-height: 1.22;
+    float:center;
+    vertical-align: bottom;
+    display: inline-block;
+    
+}
+
+
+body{
+  background:rgba(103, 117, 101, 0.9)
+}  
+
+
+#aimee{
+ width:500px;
+ height: 500px;
+ background-image:url('http://i.imgur.com/kNsCuoI.jpg');
+ background-size: cover;
+ display: block;
+ border-radius: 250px;
+ -webkit-border-radius: 250px;
+ -moz-border-radius: 250px;
+
+}
+div.about{
+  font-family:"Raleway,";
+  color:snow;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  position:relative;
+  }
+div.portfolio{
+  background:url(http://i.imgur.com/VOQXO5a.jpg);
+  webkit-background-size: 100% auto;
+  moz-background-size: 100% auto;
+  ms-background-size: 100% auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Raleway";
+  font-color: "snow"
+  margin:10px }
+
+#tribute {
+    background: rgba(47,44,48,0.9);
+    padding: 1px;
+   
+}
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
